@@ -1,0 +1,24 @@
+h1-h6=> heading tag
+p=> paragraph Tag
+Span=> again text
+
+
+Block Level Element  =>  Always start from new line, Bit Heavy as compare to inline
+Inline Element       =>  Start from same line, Light in weight
+
+** Some tags close in pair
+** Some tags are self closing
+
+Inline => span,inline
+Block => h1-h6, p
+
+
+
+/***
+div
+section
+linking the page
+ul
+table
+targeting section
+**/
