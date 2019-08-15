@@ -1,0 +1,30 @@
+#mainHeading{
+    text-align: center;
+}
+.topic{
+    height:250px;
+    width:300px;
+    float: left;
+    border:5px groove teal;
+    margin-left:20px;
+    overflow:scroll;
+    border-radius:10%;
+    padding: 10px;
+    background:rgb(206, 144, 206);
+    color:rgb(247, 205, 247);
+    box-shadow: 10px 10px gray
+}
+
+.topic h2{
+    text-align: center;
+    color:#ddd
+}
+
+
+/*
+solid
+dotted
+dashed
+double
+groove
+*/
