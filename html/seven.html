@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <form method="GET">
+            <div>
+                <label for="firstname">FirstName*</label>
+                <input type="text" 
+                placeholder="firstName"
+                name="fname"
+                id="firstname"
+                required
+                minlength="3"
+                />
+            </div>
+            <div>
+                <label for="lastname">LastName</label>
+                <input type="text" 
+                placeholder="lastName"
+                name="lname"
+                value="alis"
+                id="lastname"
+                />
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" placeholder="a@a.com"
+                id="email" name="Email" required/>
+            </div>
+            <div>
+                <label for="pwd">Password</label>
+                <input type="password"
+                    id="pwd" name="pass"
+                    pattern="^[a-zA-Z]\w{3,14}$"/>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="gender"
+                    value="female"/> Female
+                </label>
+                <label>
+                    <input type="radio" name="gender"
+                    value="male"/> Male
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox"
+                    name="language"
+                    value="html">HTML
+                </label>
+                <label>
+                    <input type="checkbox"
+                    name="language"
+                    value="css">CSS
+                </label>
+                <label>
+                    <input type="checkbox"
+                    name="language"
+                    value="javascript">JavaScript
+                </label>
+            </div>
+            <div>
+                <label>File</label>
+                <input type="file"/>
+            </div>
+            <div>
+                <label>Color</label>
+                <input type="color"
+                name="clr"/>
+            </div>
+            <div>
+                <label>Number</label>
+                <input type="number"
+                    name="numb"/>
+            </div>
+            <div>
+                <label>Date</label>
+                <input type="date"
+                        name="dt"/>
+            </div>
+            <div>
+                    <label>URL</label>
+                    <input type="url"
+                            name="url"/>
+            </div>
+            <div>
+                <label>Comment</label>
+                <textarea></textarea>
+            </div>
+            <button type="submit">Submit</button>
+            <button type="button">Save</button>
+            <button type="reset">Reset</button>
+        </form>
+
+    </body>
+</html>
