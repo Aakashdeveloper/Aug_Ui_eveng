@@ -1,0 +1,160 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>    
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="second.css"/>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle"
+                        data-toggle="collapse" data-target="#nareshnav">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand">
+                            Developer Funnel
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="nareshnav">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">About</a>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">
+                                <span class="glyphicon glyphicon-user"></span>
+                                SignUp
+                            </a></li>
+                            <li><a href="#">
+                                    <span class="glyphicon glyphicon-log-in"></span>
+                                    Login
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand">
+                            NareshIT
+                        </a>
+                    </div>
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle"
+                            data-toggle="dropdown"href="#">
+                            About
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                                <li><a href="#">BMW</a></li>
+                                <li><a href="#">Audi</a></li>
+                                <li><a href="#">Kia</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="jumbotron">
+                <h1>NavPage</h1>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-info
+                dropdown-toggle" type="button"
+                data-toggle="dropdown">Cars List
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">BMW</a></li>
+                    <li><a href="#">Audi</a></li>
+                    <li><a href="#">Kia</a></li>
+                </ul>
+            </div>
+            <button type="button" class="btn btn-warning"
+            data-toggle="modal" data-target="#movies">
+                Details
+            </button>
+            <div id="movies" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close"
+                            data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Avengres</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Movies of super heros</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger"
+                            data-dismiss="modal">Close</button>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br/>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    Employee Form
+                </div>
+                <div class="panel-body">
+                    <form>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label>FirstName</label>
+                                <input type="text" class="form-control"/>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>LastName</label>
+                                <input type="text" class="form-control"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" class="form-control"/>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"/>Remeber ME
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option value="html">HTML</option>
+                                <option value="css">CSS</option>
+                            </select>
+                        </div>
+                        <select class="f"
+                        <button class="btn btn-success"
+                                type="submit">
+                                Submit
+                        </button>
+                        <button class="btn btn-danger"
+                                type="reset">
+                                Danger
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </body>
+</html>

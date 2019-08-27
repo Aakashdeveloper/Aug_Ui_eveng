@@ -26,3 +26,22 @@ targeting section
 inline
 style tag
 stylesheet
+
+
+/* First Time
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/testrepo.git
+git push -u origin master
+*/
+
+/* second*/
+git add .
+git commit -m "added app.js"
+git push
+
+https://git-scm.com/downloads
+
+
+git checkout -b nareshit
