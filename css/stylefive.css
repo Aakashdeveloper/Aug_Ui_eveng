@@ -18,7 +18,7 @@
     box-shadow: 10px 10px gray
 }
 
-.topic h2{
+.topic > h2{
     text-align: center;
     color:#ddd
 }

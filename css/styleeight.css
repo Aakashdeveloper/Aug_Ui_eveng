@@ -1,0 +1,19 @@
+.flex-container{
+    display: flex;
+    background: lightgreen;
+    /*flex-direction: row;
+    flex-flow:row wrap;*/
+    
+    flex-wrap: wrap;
+    height: 300px;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: stretch;
+}
+
+.flex-container > div {
+    background: skyblue;
+    margin:5px;
+    padding:15px;
+    font-size:35px;
+}
