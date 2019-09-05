@@ -33,3 +33,6 @@ var pattern = "^([a-zA-Z]+)$"
 var mytext = "7886@hjgh"
 mytext.match("^([a-zA-Z0-9]+)@([a-zA-Z]+)\.([a-z]{2,5})$")
 
+
+
+mytext.match("^(([a-z])|[a-z]+[0-9])+\.+([a-z])+@+([a-z])+\.+([a-z])")
