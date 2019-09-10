@@ -7,6 +7,8 @@ var a === 10
 == compare data
 === compare data with date type
 
+10=="10"
+10==="10"
 var a = 10
 undefined
 a
