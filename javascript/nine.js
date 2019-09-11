@@ -43,6 +43,17 @@ you have to take username as input
 if user is part of array tha allow access
 else deny access
 
+
+You have to create one user list []
+you will ask your there name
+if that user is in the list print allow access 
+else add that user to the list
+next time you can check in the same
+
+localStorage.setItem('dataname', data)
+localStorage.getItem('itemname')
+localStorage.removeItem('itemname')
+
 Luck Game
 you have to generate on random number everytime
 than you have ask user one number
