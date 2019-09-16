@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Progress Bar</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>    
+        <script>
+            var a = 0;
+            var b = 0
+            function loop(){
+                var i = 0;
+                var out = setInterval(valOut,1000)
+                console.log("out>>>>>>>>>"+b)
+
+                    function valOut(){
+                        if(b > 80){
+                            clearInterval(out)
+                        }else{
+                            a = a+20
+                            b = parseInt(i)+parseInt(a)
+                            console.log("a>>>>"+a)
+                            console.log("b>>>>"+b)
+                            if(b==0||b=="undefined"){
+                                document.getElementsByClassName('progress-bar')[0].style.width="0%";
+                                document.getElementById('data').innerText= "0% Complete"
+                            }else if(b==20){
+                                document.getElementsByClassName('progress-bar')[0].style.width="15%"
+                                document.getElementById('data').innerText= "15% Complete"
+                            }else if(b==40){
+                                document.getElementsByClassName('progress-bar')[0].style.width="40%"
+                                document.getElementById('data').innerText= "40% Complete"
+                            }else if(b==60){
+                                document.getElementsByClassName('progress-bar')[0].style.width="56%"
+                                document.getElementById('data').innerText= "56% Complete"
+                            }else if(b==80){
+                                document.getElementsByClassName('progress-bar')[0].style.width="78%"
+                                document.getElementById('data').innerText= "78% Complete"
+                            }else if(b==100){
+                                document.getElementsByClassName('progress-bar')[0].style.width="100%"
+                                document.getElementById('data').innerText= "100% Complete"
+                                document.getElementById('mainpage').innerText="Page loaded successfully"
+                            }
+                        }
+                    }
+
+            }
+            window.onload= loop()
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="progress">
+                <div class="progress-bar progress-bar-danger
+                    progress-bar-striped active"
+                    role="progressbar"
+                    style="width:0%">
+                    <span id="data"></span>
+                </div>
+            </div>
+            <h1 id="mainpage"></h1>
+        </div>
+    </body>
+</html>

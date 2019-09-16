@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Forms</title>
+        <script>
+            const validateFname = () =>{
+                var a = document.getElementById('fname').value;
+                if( a == '' ||  a == ' '){
+                    document.getElementsByTagName('p')[0].innerText="Please enter firstname"
+                }else{
+                    var out = a.charAt(0).toUpperCase() + a.slice(0).toLowerCase()
+                    document.getElementById('fname').value = out
+                    document.getElementsByTagName('p')[0].innerText="You have entered valid value"
+                }
+
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+            <label>First Name</label>
+            <input type="text" id="fname" onblur="validateFname()"/>
+            
+            <label>Last Name</label>
+            <input type="text" id="lname"/>
+            <p></p>
+            
+        </form>
+    </body>
+</html>
