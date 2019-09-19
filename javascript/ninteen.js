@@ -31,13 +31,20 @@ function language(name,country){
 
 var hindi = new language('Hindi','India')
 
-
-//es6
-class language {
+class geo{
     constructor(name,country){
         this.name = name;
         this.country = country
     }
 }
 
-var hindi = new language('Hindi','India')
+//es6
+class language extends geo{
+    constructor(name,country,lat,long){
+        super(name,country)
+        this.lat=lat;
+        this.long=long;
+    }
+}
+
+var hindi = new language('Hindi','India',46.646,12.4)

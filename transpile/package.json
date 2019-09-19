@@ -1,0 +1,14 @@
+{
+  "name": "transpile",
+  "version": "1.0.0",
+  "description": "this is new app",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "nareshit",
+  "license": "ISC"
+}
