@@ -31,6 +31,8 @@ function language(name,country){
 
 var hindi = new language('Hindi','India')
 
+
+
 class geo{
     constructor(name,country){
         this.name = name;

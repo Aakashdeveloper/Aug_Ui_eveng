@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <style>
+            #main{
+                height:300px;
+                width:300px;
+                background:teal
+            }
+        </style>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(()=>{
+                
+                $('#one').css('color','red')
+                $('.two').text('My Second line')
+                $('#hide').click(()=>{
+                    $('#main').hide(1000)
+                })
+                $('#show').click(()=>{
+                    $('#main').show(1200)
+                })
+                $('#toggle').click(()=>{
+                    $('#main').toggle(1200)
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <div id="one">This is first part of jquery</div>
+        <div class="two"></div>
+        <button id="hide">Hide</button>
+        <button id="show">Show</button>
+        <button id="toggle">Toogle</button>
+        <div id="main"></div>
+    </body>
+</html>

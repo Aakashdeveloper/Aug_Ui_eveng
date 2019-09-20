@@ -1,14 +1,20 @@
 {
-  "name": "transpile",
+  "name": "transpiles",
   "version": "1.0.0",
   "description": "this is new app",
   "main": "index.js",
   "scripts": {
-    "start":"node index.js"
+    "start": "node start.js"
   },
   "keywords": [
     "node"
   ],
   "author": "nareshit",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/register": "^7.6.0",
+    "babel-polyfill": "^6.26.0"
+  }
 }

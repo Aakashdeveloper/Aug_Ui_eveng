@@ -57,3 +57,6 @@ npm init
 package.json
 babel
 node_modules
+
+
+npm i @babel/core @babel/preset-env @babel/register babel-polyfill 
