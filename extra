@@ -60,3 +60,27 @@ node_modules
 
 
 npm i @babel/core @babel/preset-env @babel/register babel-polyfill 
+
+
+> run cmd as admin
+> npm i -g @angular/cli
+> sudo npm i -g @angular/cli
+
+> ng new angapp
+cd angapp
+npm start
+
+
+
+
+
+> npm i -g create-react-app
+> create-react-app myreact
+cd react
+npm start
+
+
+> npm i -g @aakashdeveloper/create-node-app
+> generate mynode
+cd mynode
+npm start
